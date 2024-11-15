@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Favorite Movies</title>
+    <style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #29316a;
+        line-height: 1.6;
+    }
+    
+    #navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem;
+        background-color: #2850bd;
+        color: #fff;
+    }
+    
+    .nav-logo h1 {
+        margin: 0;
+    }
+    
+    .nav-links a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.2em;
+        margin-left: 20px;
+        transition: color 0.3s ease-in-out;
+    }
+    
+    .nav-links a:hover {
+        color: #f4a261;
+    }
+    
+    .heading {
+        text-align: center;
+        font-size: 2em;
+        margin: 20px 0;
+        color: #ccfcf6;
+        font-family: 'Georgia', serif;
+    }
+    
+    .movies-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+    }
+    
+    .movie {
+        background: #fff;
+        border-radius: 10px;
+        box-shadow:
+    </style>
+</head>
+<body>
+    <header>
+        <div id="navbar">
+            <div class="nav-logo">
+                <h1 style="font-size: 2.5em; text-align: center; font-family: cursive;">Favorite Movies</h1>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="movies">
+            <h2 class="heading">My Top Favorite Movies</h2>
+            <div class="movies-container">
+                <!-- Existing Movies -->
+                <div class="movie">
+                    <h3>The Shawshank Redemption (1994)</h3>
+                    <a href="https://www.imdb.com/title/tt0111161/" target="_blank">
+                        <img src="image folder/shawshank.jpg" alt="The Shawshank Redemption" height="300">
+                    </a>
+                    <p>A story of hope and friendship set in a harsh prison environment.</p>
+                </div>
+                <div class="movie">
+                    <h3>Inception (2010)</h3>
+                    <a href="https://www.imdb.com/title/tt1375666/" target="_blank">
+                        <img src="image folder/inception.jpg" alt="Inception" height="300">
+                    </a>
+                    <p>A mind-bending thriller exploring the world of dreams and reality.</p>
+                </div>
+                <!-- New Movies -->
+                <div class="movie">
+                    <h3>Grave of the Fireflies (1988)</h3>
+                    <a href="https://www.imdb.com/title/tt0095327/" target="_blank">
+                        <img src="image folder/graveofthefireflies.jpg" alt="Grave of the Fireflies" height="300">
+                    </a>
+                    <p>A heartbreaking tale of two siblings trying to survive during wartime Japan.</p>
+                </div>
+                <div class="movie">
+                    <h3>Zootopia (2016)</h3>
+                    <a href="https://www.imdb.com/title/tt2948356/" target="_blank">
+                        <img src="image folder/zootopia.jpg" alt="Zootopia" height="300">
+                    </a>
+                    <p>An inspiring story of teamwork and determination set in a bustling animal city.</p>
+                </div>
+                <div class="movie">
+                    <h3>Tangled (2010)</h3>
+                    <a href="https://www.imdb.com/title/tt0398286/" target="_blank">
+                        <img src="image folder/tangled.jpg" alt="Tangled" height="300">
+                    </a>
+                    <p>A magical journey of adventure and self-discovery with Rapunzel and Flynn Rider.</p>
+                </div>
+                <div class="movie">
+                    <h3>Big Hero 6 (2014)</h3>
+                    <a href="https://www.imdb.com/title/tt2245084/" target="_blank">
+                        <img src="image folder/bighero6.jpg" alt="Big Hero 6" height="300">
+                    </a>
+                    <p>An action-packed story about friendship, innovation, and fighting for justice.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Umma Faria Rahman. All rights reserved.</p>
+    </footer>
+</body>
+</html>
